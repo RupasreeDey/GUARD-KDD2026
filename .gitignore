@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+results/
+routing_weather/
+*.json
+*.png
+*.pkl
+*.egg-info/
+.env

@@ -1,0 +1,25 @@
+# GUARD: Gated Uncertainty-Aware Routing for Distillation
+# Requirements — tested on Python 3.10
+
+# Core ML
+torch>=2.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Foundation model teachers
+# TimesFM — install separately (Google):
+#   pip install timesfm
+# Chronos:
+chronos-forecasting>=1.3.0
+
+# Moirai (optional — for 3-teacher experiments, Section 7):
+# pip install uni2ts gluonts huggingface_hub safetensors
+
+# Utilities
+psutil>=5.9.0
